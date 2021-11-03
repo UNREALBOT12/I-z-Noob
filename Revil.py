@@ -307,21 +307,21 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-EVIL_PIC = "https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg"
-devs = [1787364816, 1787040289, 2031164360]
+EVIL_PIC = "https://telegra.ph/file/f3bfd56730dcbbdbf939f.jpg"
+devs = [2077399460, 2077399460, 2077399460]
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.l"))
 async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝘽𝙤𝙩 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝘽𝙤𝙩 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.l <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
         revilbot = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
@@ -340,18 +340,18 @@ async def _(e):
                 
         
         
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.s"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝘽𝙤𝙩𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝘽𝙤𝙩𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.s <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
@@ -381,18 +381,18 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
             
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.dspam"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.ds"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.dspam <sleep time> <count> <message to spam>\n\n.dspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.ds <sleep time> <count> <message to spam>\n\n.dspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -430,18 +430,18 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.bs"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴 𝗕𝗼𝘁 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴 𝗕𝗼𝘁 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bs <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -475,18 +475,18 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.c"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = CURSE \n\nCommand:\n\n.curse <count> <Username of User>\n\n.curse <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = CURSE \n\nCommand:\n\n.c <count> <Username of User>\n\n.curse <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -565,19 +565,19 @@ async def _(event):
         )           
             
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.rc"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.replycurse <Username of User>\n\n.replycurse <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.rc <Username of User>\n\n.replycurse <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -623,19 +623,19 @@ async def _(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.drc"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.dreplycurse <Username of User>\n\n.dreplycurse <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.drc <Username of User>\n\n.dreplycurse <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -674,37 +674,37 @@ async def _(e):
     
        
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-async def ping(e):
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.p"))
+async def ping(e)
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
         text = "Waking Up The BOT..!!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝗥𝐄V𝐈𝗟 Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
+        await event.edit(f"BAP SE BAKCHODI NHI TUMHARA BAP NEON MY OWNER `{ms}` 𝗠𝗦")
     
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.r"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "𝗥𝗲𝗯𝗼𝗼𝘁𝗲𝗱\n\nPlease wait till it reboots..."
@@ -753,24 +753,24 @@ async def restart(e):
         quit()
 
        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.neon"))
 async def alive(event):
     if event.sender_id in SMEX_USERS:
         message_id = event.message.id
         try:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "[👅](https://telegra.ph/file/f3bfd56730dcbbdbf939f.jpg)"
             event = await event.client.send_file(event.chat_id, EVIL_PIC, caption = text, reply_to=message_id, link_preview=None )
         except:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "[👅](https://telegra.ph/file/f3bfd56730dcbbdbf939f.jpg🖤"
             event = await event.reply(text, link_preview=None )
         
         
@@ -786,24 +786,18 @@ async def alive(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.evil\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.curse\n.replycurse\n.dreplycurse\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.neon\n.p\n.r\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.s\n.ds\n.bs\n.c\n.rc\n.drc\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
 
     
         
-text = """
-██████╗░███████╗██╗░░░██╗██╗██╗░░░░░
-██╔══██╗██╔════╝██║░░░██║██║██║░░░░░
-██████╔╝█████╗░░╚██╗░██╔╝██║██║░░░░░
-██╔══██╗██╔══╝░░░╚████╔╝░██║██║░░░░░
-██║░░██║███████╗░░╚██╔╝░░██║███████╗
-╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝╚══════╝ """
+text = """TERA BAP @unreal_hun_bro"""
 
 print(text)
 print("")
-print("Congrats REVIL MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .evil TO CHECK YOUR BOT'S STATUS")
+print("Congrats DOT SPAM MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .neon TO CHECK YOUR BOT'S STATUS")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
